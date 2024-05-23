@@ -12,7 +12,7 @@ function Explore() {
 
     useEffect(() => {
         fetchRecipes(); // Charge initialement des recettes par défaut
-    }, []);
+    }, [fetchRecipes]);
 
     const fetchRecipes = async () => {
         const apiKey = "f48e5b59a6d24a49a378f0f24ec6f767";

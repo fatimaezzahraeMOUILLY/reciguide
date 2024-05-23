@@ -2,7 +2,7 @@ import './Food_recognition.css';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import logo from '../images/logo.png';
-import './Food_recognition.css'
+import './Foodrecognition.css'
 
 
 function ReciGuide() {

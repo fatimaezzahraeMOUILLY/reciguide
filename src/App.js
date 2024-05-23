@@ -8,7 +8,7 @@ import Explore from './pages/Explore';
 import RecipeDetails from './pages/RecipeDetails';
 import CalorieCalculator from './pages/calculateTotalCal';
 import Personalize from './pages/personalize';
-import Food_recognition from './pages/Food_recognition';
+import Foodrecognition from './pages/Foodrecognition';
 
 
 
@@ -29,7 +29,7 @@ function App() {
         <Route path="/recipe/:id" element={ <RecipeDetails/> } />
         <Route path="/CalorieCalculator" element={ <CalorieCalculator/> } />
         <Route path="/Personalize" element={ <Personalize/> } />
-        <Route path='/contact' element={ <Food_recognition/>} />
+        <Route path='/contact' element={ <Foodrecognition/>} />
   
         
       </Routes>

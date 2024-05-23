@@ -147,7 +147,7 @@ const quantity = [ 0, 5, 10, 15, 20, 25, 50, 75, 80, 100, 150, 200, 250, 300, 35
       drinks: createOptions('drinks', drinks),
       dishes: createOptions('dishes', dishes),
     });
-  }, []);
+  }, [cereals, condiments, dishes, drinks, fruits, meat, seafood, vegetables]);
   
 
   const [options, setOptions] = useState({});
