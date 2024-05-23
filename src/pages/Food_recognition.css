@@ -1,0 +1,185 @@
+/* Food_recognition.css */
+
+.body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.explore-container {
+    position: relative;
+    background-image: url('../images/background3.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: auto;
+    align-items: center;
+  }
+  
+  
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  
+  .content-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto ;
+    max-width: 800px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 8%;
+    align-items: center;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #formContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  #fileInput {
+    margin-right: 10px;
+  }
+  
+  #imageContainer {
+    text-align: center;
+    width: 240px;
+    margin-bottom: 20px;
+  }
+  
+  #submitted_image {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #predictionResult {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    width: 240px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  #nutritional_data {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 240px;
+  }
+  
+  .nutrition_box {
+    font-size: 20px;
+    margin-top: 10px;
+    
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 240px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+
+  
+  /* Styles pour la barre de navigation */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(153, 152, 152, 0.5); /* Fond semi-transparent */
+  }
+  
+  .logo {
+  display: flex;
+  align-items: center; /* Centre le contenu verticalement */
+}
+
+  
+  .logo img{
+    width: 170px; /* Largeur de votre logo */
+    height: 70px; /* Hauteur de votre logo */
+    margin-left: 30px; /* Marge à droite pour séparer le logo du texte */
+  }
+  
+  .about ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .about ul li {
+    margin-right: 100px;
+    align-items: center;
+    cursor: pointer;
+    font-size: large;
+    
+  }
+
+
+  
+  .Login-button {
+    background-color: #6fd09c;
+    color: #000;
+    border: none;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight:bolder;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 5%;
+  }
+  .Profile-button {
+    background-color: #6fd09c;
+    color: #000;
+    border: none;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight:bolder;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 5%;
+  }
+  
+  
+  .slogan {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 25px;
+  }
+  

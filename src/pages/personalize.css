@@ -1,48 +1,41 @@
-/* Personalize.css */
-
-.body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
+/* Explore.css */
+.explore-container {
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: auto;
+  background-color: #6fd09c;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+.navbar {
+  background: rgba(255, 255, 255, 0.8);
 }
 
-.h1 {
-  text-align: center;
-  color: #333;
-}
-
-.form {
-  display: flex;
+.search-bar {
+  display:flex;
   justify-content: center;
-  margin-bottom: 20px;
+  padding: 20px;
+  margin-top: 65px;
+  height: 50px;
 }
 
-.input[type="text"] {
-  width: 60%;
+.search-bar input[type="text"] {
+  width: 50%;
   padding: 10px;
   margin-right: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
-.button {
+.search-bar button {
   padding: 10px 20px;
   border: none;
-  background-color: #28a745;
+  background-color: #6fd09c;
   color: white;
+  border-radius: 5px;
   cursor: pointer;
-  border-radius: 4px;
-}
-
-.button:hover {
-  background-color: #218838;
+  color: black;
 }
 
 .recipe-list {
@@ -50,6 +43,8 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .recipe-card {
@@ -60,6 +55,9 @@
   max-width: 300px;
   overflow: hidden;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .recipe-card img {
@@ -73,9 +71,12 @@
   background-color: #f8f9fa;
   font-size: 1.2em;
   color: #333;
+  width: 100%;
+  text-align: center;
 }
 
 .recipe-card p {
   padding: 15px;
   color: #555;
+  text-align: center;
 }
